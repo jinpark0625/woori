@@ -1,13 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GmarketSansBold";
+  font-weight: normal;
+  src: url("./fonts/GmarketSansBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "WantedSans-Bold";
+  font-weight: normal;
+  src: url("./fonts/WantedSans-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "WantedSans-SemiBold";
+  font-weight: normal;
+  src: url("./fonts/WantedSans-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "WantedSans-Regular";
+  font-weight: normal;
+  src: url("./fonts/WantedSans-Regular.otf") format("opentype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "WantedSans-Regular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "WantedSans-Regular", source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
 }
