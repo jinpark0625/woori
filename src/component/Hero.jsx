@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="flex flex-row space-x-5 mt-5 justify-center">
             <button
               type="button"
-              class="flex items-center justify-center w-48 mt-3 text-black bg-transparent border border-black h-14 rounded-xl bg-slate-50"
+              class="flex items-center justify-center w-48 mt-3 text-black bg-transparent border border-black h-14 rounded-xl bg-white"
             >
               <div class="mr-3">
                 <svg viewBox="0 0 384 512" width="30">
