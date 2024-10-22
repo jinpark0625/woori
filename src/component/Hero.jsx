@@ -1,7 +1,6 @@
 const Hero = () => {
   return (
     <div className="h-screen flex flex-col">
-      {/* <div className="bg-black absolute inset-0 w-full h-full z-0 opacity-20" /> */}
       <img
         src={require("../imgs/bg.png")}
         alt="배경이미지"
@@ -13,7 +12,12 @@ const Hero = () => {
           className="flex items-center justify-between p-6 lg:px-8"
         >
           <div className="flex lg:flex-1 text-white">
-            <p>WOORI</p>
+            {/* <p>WOORI</p> */}
+            <img
+              className="w-36  object-top object-cover"
+              src={require("../imgs/web_logo.png")}
+              alt="클럽 이미지"
+            />
           </div>
         </nav>
       </header>
