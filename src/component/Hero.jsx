@@ -33,7 +33,7 @@ const Hero = () => {
               우리만의 이야기
             </h1>
           </div>
-          <div className="flex flex-row space-x-5 mt-5 justify-center">
+          <div className="flex flex-row gap-x-5 mt-5 justify-center flex-wrap">
             <button
               type="button"
               class="flex items-center justify-center w-48 mt-3 text-black bg-transparent border border-black h-14 rounded-xl bg-white"
