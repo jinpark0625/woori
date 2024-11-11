@@ -1,4 +1,15 @@
 const Hero = () => {
+  const handleClick = (type) => {
+    if (type === "ios") {
+      window.open(
+        "https://apps.apple.com/kr/app/%EC%9A%B0%EB%A6%AC/id6670238036",
+        "_blank"
+      );
+    } else {
+      alert("앱이 곧 출시됩니다! 잠시만 기다려 주세요.");
+    }
+  };
+
   return (
     <div className="h-screen flex flex-col">
       <img
@@ -37,6 +48,7 @@ const Hero = () => {
             <button
               type="button"
               class="flex items-center justify-center w-48 mt-3 text-black bg-transparent border border-black h-14 rounded-xl bg-white"
+              onClick={() => handleClick("ios")}
             >
               <div class="mr-3">
                 <svg viewBox="0 0 384 512" width="30">
@@ -56,6 +68,7 @@ const Hero = () => {
             <button
               type="button"
               class="flex items-center justify-center w-48 mt-3 text-white bg-black rounded-lg h-14"
+              onClick={() => handleClick("aos")}
             >
               <div class="mr-3">
                 <svg viewBox="30 336.7 120.9 129.2" width="30">
